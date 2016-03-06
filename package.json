@@ -2,15 +2,39 @@
   "name": "patternguide-dev",
   "version": "0.0.1",
   "description": "Local client-side development workflow. Can be used individually, but intended as part of PatternGuide ecosystem.",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
+  "main": "lib/main.js",
+  "bin": "lib/cli.js",
+  "scripts": {},
   "keywords": [
     "workflow",
     "reverse-proxy",
     "proxy"
   ],
-  "author": "Vernon Kesner <vernonkesner@gmail.com> (http://vernonkesner.com)",
-  "license": "ISC"
+  "author": "Vernon Kesner <vernonkesner@gmail.com>",
+  "repository": "vernonk/patternguide-dev",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jasmine": "^2.3.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "hapi": "^13.0.0",
+    "yargs": "^4.2.0"
+  }
 }
