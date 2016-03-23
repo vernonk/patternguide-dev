@@ -1,6 +1,6 @@
 {
   "name": "patternguide-dev",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Local client-side development workflow. Can be used individually, but intended as part of PatternGuide ecosystem.",
   "bin": "lib/cli.js",
   "main": "lib/main.js",
